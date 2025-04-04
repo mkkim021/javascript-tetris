@@ -27,7 +27,7 @@ jobs:
           docker build -t ${{ secrets.DOCKER_REPO }}/tetris .
 
           # Push in Docker Hub
-          docker push ${{ secrets.DOKER_REPO }}/tetris
+          docker push ${{ secrets.DOCKER_REPO }}/tetris
 
       # 3. 원격 서버에 배포
       - name: Deploy to server 
