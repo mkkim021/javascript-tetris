@@ -15,7 +15,7 @@ jobs:
 
     steps:
       # 1. 저장소 코드 체크아웃 
-      - uses: actions/checkout@3 # 현재 저장소의 코드 가쟈옴
+      - uses: actions/checkout@v3 # 현재 저장소의 코드 가쟈옴
 
       # 2. Docker Build & Docker Push 
       - name: Docker build & push to docker repo
